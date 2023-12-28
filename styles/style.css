@@ -1,0 +1,88 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  block-size: 100%;
+}
+
+.page {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 800px;
+  background-color:#FF69B4;
+  font-family: "Fira Sans Condensed", "Arial", sans-serif;
+  font-size: 25px;
+  margin-top: 50px;
+}
+
+.card {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.cloud-picture {
+  width: 100%;
+  position: relative;
+  z-index: 0;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.cloud {
+  width: 320px;
+  height: 200px;
+}
+
+.tittle {
+  text-transform: uppercase;
+  font-size: 30px;
+  position: absolute;
+  z-index: 1;
+  font-weight: 800;
+margin-top: 50px;
+}
+
+.pig {
+  display: flex;
+  width: 320px;
+  height: 200px;
+  object-fit: cover;
+  margin-left: 100px;
+}
+
+.text {
+  border: 15px dotted white;
+  padding: 12px;
+  text-align: justify;
+}
+
+.rules-text {
+  background-color: #ffbad7fa;
+  text-align: justify;
+  padding: 25px;
+  border: -1px solid #FF1493;
+}
+
+.accent {
+  text-transform: uppercase;
+  color: #FF1493;
+  font-weight: 700;
+}
+
+.rules {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
